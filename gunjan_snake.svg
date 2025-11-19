@@ -1,816 +1,571 @@
-<svg viewBox="0 0 376 56" width="376" height="56" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <rect width="100%" height="100%" fill="#0d1117"/>
-  <g shape-rendering="geometricPrecision">
-    <path id="snakePath" d="M 12.0 12.0 L 20.0 12.0 L 28.0 12.0 L 36.0 12.0 L 44.0 12.0 L 12.0 20.0 L 12.0 28.0 L 28.0 28.0 L 36.0 28.0 L 44.0 28.0 L 12.0 36.0 L 44.0 36.0 L 12.0 44.0 L 20.0 44.0 L 28.0 44.0 L 36.0 44.0 L 44.0 44.0 L 76.0 12.0 L 108.0 12.0 L 76.0 20.0 L 108.0 20.0 L 76.0 28.0 L 108.0 28.0 L 76.0 36.0 L 108.0 36.0 L 76.0 44.0 L 84.0 44.0 L 92.0 44.0 L 100.0 44.0 L 108.0 44.0 L 140.0 12.0 L 172.0 12.0 L 140.0 20.0 L 148.0 20.0 L 172.0 20.0 L 140.0 28.0 L 156.0 28.0 L 172.0 28.0 L 140.0 36.0 L 164.0 36.0 L 172.0 36.0 L 140.0 44.0 L 172.0 44.0 L 236.0 12.0 L 236.0 20.0 L 236.0 28.0 L 204.0 36.0 L 236.0 36.0 L 204.0 44.0 L 212.0 44.0 L 220.0 44.0 L 228.0 44.0 L 236.0 44.0 L 276.0 12.0 L 284.0 12.0 L 292.0 12.0 L 268.0 20.0 L 300.0 20.0 L 268.0 28.0 L 276.0 28.0 L 284.0 28.0 L 292.0 28.0 L 300.0 28.0 L 268.0 36.0 L 300.0 36.0 L 268.0 44.0 L 300.0 44.0 L 332.0 12.0 L 364.0 12.0 L 332.0 20.0 L 340.0 20.0 L 364.0 20.0 L 332.0 28.0 L 348.0 28.0 L 364.0 28.0 L 332.0 36.0 L 356.0 36.0 L 364.0 36.0 L 332.0 44.0 L 364.0 44.0" fill="none" stroke="none"/>
-    <rect id="snake" x="-2.64" y="-2.64"
-             width="5.28" height="5.28"
-             rx="1.2" ry="1.2" fill="#39d353">
-      <animateMotion id="snakeAnim"
-                     dur="28.00s"
-                     repeatCount="indefinite"
-                     rotate="auto">
-        <mpath xlink:href="#snakePath"/>
-      </animateMotion>
-    </rect>
-    <rect x="9.8" y="9.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="0.00s; snakeAnim.repeat+0.00s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="17.8" y="9.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="0.35s; snakeAnim.repeat+0.35s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="25.8" y="9.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="0.70s; snakeAnim.repeat+0.70s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="33.8" y="9.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="1.05s; snakeAnim.repeat+1.05s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="41.8" y="9.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="1.40s; snakeAnim.repeat+1.40s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="9.8" y="17.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="1.75s; snakeAnim.repeat+1.75s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="9.8" y="25.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="2.10s; snakeAnim.repeat+2.10s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="25.8" y="25.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="2.45s; snakeAnim.repeat+2.45s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="33.8" y="25.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="2.80s; snakeAnim.repeat+2.80s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="41.8" y="25.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="3.15s; snakeAnim.repeat+3.15s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="9.8" y="33.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="3.50s; snakeAnim.repeat+3.50s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="41.8" y="33.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="3.85s; snakeAnim.repeat+3.85s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="9.8" y="41.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="4.20s; snakeAnim.repeat+4.20s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="17.8" y="41.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="4.55s; snakeAnim.repeat+4.55s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="25.8" y="41.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="4.90s; snakeAnim.repeat+4.90s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="33.8" y="41.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="5.25s; snakeAnim.repeat+5.25s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="41.8" y="41.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="5.60s; snakeAnim.repeat+5.60s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="73.8" y="9.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="5.95s; snakeAnim.repeat+5.95s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="105.8" y="9.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="6.30s; snakeAnim.repeat+6.30s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="73.8" y="17.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="6.65s; snakeAnim.repeat+6.65s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="105.8" y="17.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="7.00s; snakeAnim.repeat+7.00s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="73.8" y="25.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="7.35s; snakeAnim.repeat+7.35s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="105.8" y="25.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="7.70s; snakeAnim.repeat+7.70s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="73.8" y="33.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="8.05s; snakeAnim.repeat+8.05s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="105.8" y="33.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="8.40s; snakeAnim.repeat+8.40s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="73.8" y="41.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="8.75s; snakeAnim.repeat+8.75s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="81.8" y="41.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="9.10s; snakeAnim.repeat+9.10s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="89.8" y="41.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="9.45s; snakeAnim.repeat+9.45s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="97.8" y="41.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="9.80s; snakeAnim.repeat+9.80s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="105.8" y="41.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="10.15s; snakeAnim.repeat+10.15s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="137.8" y="9.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="10.50s; snakeAnim.repeat+10.50s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="169.8" y="9.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="10.85s; snakeAnim.repeat+10.85s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="137.8" y="17.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="11.20s; snakeAnim.repeat+11.20s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="145.8" y="17.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="11.55s; snakeAnim.repeat+11.55s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="169.8" y="17.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="11.90s; snakeAnim.repeat+11.90s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="137.8" y="25.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="12.25s; snakeAnim.repeat+12.25s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="153.8" y="25.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="12.60s; snakeAnim.repeat+12.60s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="169.8" y="25.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="12.95s; snakeAnim.repeat+12.95s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="137.8" y="33.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="13.30s; snakeAnim.repeat+13.30s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="161.8" y="33.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="13.65s; snakeAnim.repeat+13.65s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="169.8" y="33.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="14.00s; snakeAnim.repeat+14.00s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="137.8" y="41.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="14.35s; snakeAnim.repeat+14.35s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="169.8" y="41.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="14.70s; snakeAnim.repeat+14.70s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="233.8" y="9.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="15.05s; snakeAnim.repeat+15.05s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="233.8" y="17.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="15.40s; snakeAnim.repeat+15.40s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="233.8" y="25.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="15.75s; snakeAnim.repeat+15.75s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="201.8" y="33.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="16.10s; snakeAnim.repeat+16.10s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="233.8" y="33.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="16.45s; snakeAnim.repeat+16.45s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="201.8" y="41.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="16.80s; snakeAnim.repeat+16.80s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="209.8" y="41.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="17.15s; snakeAnim.repeat+17.15s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="217.8" y="41.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="17.50s; snakeAnim.repeat+17.50s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="225.8" y="41.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="17.85s; snakeAnim.repeat+17.85s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="233.8" y="41.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="18.20s; snakeAnim.repeat+18.20s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="273.8" y="9.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="18.55s; snakeAnim.repeat+18.55s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="281.8" y="9.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="18.90s; snakeAnim.repeat+18.90s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="289.8" y="9.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="19.25s; snakeAnim.repeat+19.25s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="265.8" y="17.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="19.60s; snakeAnim.repeat+19.60s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="297.8" y="17.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="19.95s; snakeAnim.repeat+19.95s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="265.8" y="25.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="20.30s; snakeAnim.repeat+20.30s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="273.8" y="25.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="20.65s; snakeAnim.repeat+20.65s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="281.8" y="25.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="21.00s; snakeAnim.repeat+21.00s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="289.8" y="25.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="21.35s; snakeAnim.repeat+21.35s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="297.8" y="25.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="21.70s; snakeAnim.repeat+21.70s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="265.8" y="33.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="22.05s; snakeAnim.repeat+22.05s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="297.8" y="33.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="22.40s; snakeAnim.repeat+22.40s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="265.8" y="41.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="22.75s; snakeAnim.repeat+22.75s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="297.8" y="41.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="23.10s; snakeAnim.repeat+23.10s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="329.8" y="9.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="23.45s; snakeAnim.repeat+23.45s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="361.8" y="9.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="23.80s; snakeAnim.repeat+23.80s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="329.8" y="17.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="24.15s; snakeAnim.repeat+24.15s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="337.8" y="17.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="24.50s; snakeAnim.repeat+24.50s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="361.8" y="17.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="24.85s; snakeAnim.repeat+24.85s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="329.8" y="25.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="25.20s; snakeAnim.repeat+25.20s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="345.8" y="25.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="25.55s; snakeAnim.repeat+25.55s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="361.8" y="25.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="25.90s; snakeAnim.repeat+25.90s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="329.8" y="33.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="26.25s; snakeAnim.repeat+26.25s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="353.8" y="33.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="26.60s; snakeAnim.repeat+26.60s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="361.8" y="33.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="26.95s; snakeAnim.repeat+26.95s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="329.8" y="41.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="27.30s; snakeAnim.repeat+27.30s"
-               repeatCount="indefinite"/>
-    </rect>
-    <rect x="361.8" y="41.8"
-           width="4.4" height="4.4"
-           rx="1.3" ry="1.3"
-           fill="#40c463" opacity="1">
-      <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1.05s"
-               begin="27.65s; snakeAnim.repeat+27.65s"
-               repeatCount="indefinite"/>
-    </rect>
-  </g>
+<svg viewBox="0 0 296 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path id="snakePath" d="M 8 8 L 16 8 L 24 8 L 32 8 L 40 8 L 8 16 L 8 24 L 24 24 L 32 24 L 40 24 L 8 32 L 40 32 L 8 40 L 16 40 L 24 40 L 32 40 L 40 40 L 56 8 L 88 8 L 56 16 L 88 16 L 56 24 L 88 24 L 56 32 L 88 32 L 56 40 L 64 40 L 72 40 L 80 40 L 88 40 L 104 8 L 136 8 L 104 16 L 112 16 L 136 16 L 104 24 L 120 24 L 136 24 L 104 32 L 128 32 L 136 32 L 104 40 L 136 40 L 184 8 L 184 16 L 184 24 L 152 32 L 184 32 L 152 40 L 160 40 L 168 40 L 176 40 L 184 40 L 208 8 L 216 8 L 224 8 L 200 16 L 232 16 L 200 24 L 208 24 L 216 24 L 224 24 L 232 24 L 200 32 L 232 32 L 200 40 L 232 40 L 248 8 L 280 8 L 248 16 L 256 16 L 280 16 L 248 24 L 264 24 L 280 24 L 248 32 L 272 32 L 280 32 L 248 40 L 280 40" fill="none" stroke="none" />
+  <circle id="snake" r="3.84" fill="#30a14e">
+    <animateMotion id="snakeAnim"
+                   dur="20.0s"
+                   repeatCount="indefinite"
+                   rotate="auto">
+      <mpath xlink:href="#snakePath" />
+    </animateMotion>
+  </circle>
+  <circle id="dot0" cx="8" cy="8" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="0.00s; snakeAnim.repeat+0.00s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot1" cx="16" cy="8" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="0.25s; snakeAnim.repeat+0.25s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot2" cx="24" cy="8" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="0.50s; snakeAnim.repeat+0.50s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot3" cx="32" cy="8" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="0.75s; snakeAnim.repeat+0.75s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot4" cx="40" cy="8" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="1.00s; snakeAnim.repeat+1.00s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot5" cx="8" cy="16" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="1.25s; snakeAnim.repeat+1.25s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot6" cx="8" cy="24" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="1.50s; snakeAnim.repeat+1.50s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot7" cx="24" cy="24" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="1.75s; snakeAnim.repeat+1.75s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot8" cx="32" cy="24" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="2.00s; snakeAnim.repeat+2.00s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot9" cx="40" cy="24" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="2.25s; snakeAnim.repeat+2.25s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot10" cx="8" cy="32" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="2.50s; snakeAnim.repeat+2.50s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot11" cx="40" cy="32" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="2.75s; snakeAnim.repeat+2.75s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot12" cx="8" cy="40" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="3.00s; snakeAnim.repeat+3.00s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot13" cx="16" cy="40" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="3.25s; snakeAnim.repeat+3.25s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot14" cx="24" cy="40" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="3.50s; snakeAnim.repeat+3.50s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot15" cx="32" cy="40" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="3.75s; snakeAnim.repeat+3.75s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot16" cx="40" cy="40" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="4.00s; snakeAnim.repeat+4.00s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot17" cx="56" cy="8" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="4.25s; snakeAnim.repeat+4.25s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot18" cx="88" cy="8" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="4.50s; snakeAnim.repeat+4.50s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot19" cx="56" cy="16" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="4.75s; snakeAnim.repeat+4.75s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot20" cx="88" cy="16" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="5.00s; snakeAnim.repeat+5.00s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot21" cx="56" cy="24" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="5.25s; snakeAnim.repeat+5.25s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot22" cx="88" cy="24" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="5.50s; snakeAnim.repeat+5.50s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot23" cx="56" cy="32" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="5.75s; snakeAnim.repeat+5.75s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot24" cx="88" cy="32" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="6.00s; snakeAnim.repeat+6.00s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot25" cx="56" cy="40" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="6.25s; snakeAnim.repeat+6.25s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot26" cx="64" cy="40" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="6.50s; snakeAnim.repeat+6.50s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot27" cx="72" cy="40" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="6.75s; snakeAnim.repeat+6.75s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot28" cx="80" cy="40" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="7.00s; snakeAnim.repeat+7.00s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot29" cx="88" cy="40" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="7.25s; snakeAnim.repeat+7.25s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot30" cx="104" cy="8" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="7.50s; snakeAnim.repeat+7.50s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot31" cx="136" cy="8" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="7.75s; snakeAnim.repeat+7.75s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot32" cx="104" cy="16" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="8.00s; snakeAnim.repeat+8.00s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot33" cx="112" cy="16" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="8.25s; snakeAnim.repeat+8.25s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot34" cx="136" cy="16" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="8.50s; snakeAnim.repeat+8.50s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot35" cx="104" cy="24" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="8.75s; snakeAnim.repeat+8.75s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot36" cx="120" cy="24" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="9.00s; snakeAnim.repeat+9.00s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot37" cx="136" cy="24" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="9.25s; snakeAnim.repeat+9.25s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot38" cx="104" cy="32" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="9.50s; snakeAnim.repeat+9.50s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot39" cx="128" cy="32" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="9.75s; snakeAnim.repeat+9.75s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot40" cx="136" cy="32" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="10.00s; snakeAnim.repeat+10.00s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot41" cx="104" cy="40" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="10.25s; snakeAnim.repeat+10.25s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot42" cx="136" cy="40" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="10.50s; snakeAnim.repeat+10.50s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot43" cx="184" cy="8" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="10.75s; snakeAnim.repeat+10.75s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot44" cx="184" cy="16" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="11.00s; snakeAnim.repeat+11.00s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot45" cx="184" cy="24" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="11.25s; snakeAnim.repeat+11.25s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot46" cx="152" cy="32" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="11.50s; snakeAnim.repeat+11.50s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot47" cx="184" cy="32" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="11.75s; snakeAnim.repeat+11.75s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot48" cx="152" cy="40" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="12.00s; snakeAnim.repeat+12.00s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot49" cx="160" cy="40" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="12.25s; snakeAnim.repeat+12.25s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot50" cx="168" cy="40" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="12.50s; snakeAnim.repeat+12.50s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot51" cx="176" cy="40" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="12.75s; snakeAnim.repeat+12.75s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot52" cx="184" cy="40" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="13.00s; snakeAnim.repeat+13.00s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot53" cx="208" cy="8" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="13.25s; snakeAnim.repeat+13.25s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot54" cx="216" cy="8" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="13.50s; snakeAnim.repeat+13.50s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot55" cx="224" cy="8" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="13.75s; snakeAnim.repeat+13.75s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot56" cx="200" cy="16" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="14.00s; snakeAnim.repeat+14.00s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot57" cx="232" cy="16" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="14.25s; snakeAnim.repeat+14.25s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot58" cx="200" cy="24" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="14.50s; snakeAnim.repeat+14.50s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot59" cx="208" cy="24" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="14.75s; snakeAnim.repeat+14.75s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot60" cx="216" cy="24" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="15.00s; snakeAnim.repeat+15.00s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot61" cx="224" cy="24" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="15.25s; snakeAnim.repeat+15.25s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot62" cx="232" cy="24" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="15.50s; snakeAnim.repeat+15.50s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot63" cx="200" cy="32" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="15.75s; snakeAnim.repeat+15.75s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot64" cx="232" cy="32" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="16.00s; snakeAnim.repeat+16.00s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot65" cx="200" cy="40" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="16.25s; snakeAnim.repeat+16.25s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot66" cx="232" cy="40" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="16.50s; snakeAnim.repeat+16.50s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot67" cx="248" cy="8" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="16.75s; snakeAnim.repeat+16.75s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot68" cx="280" cy="8" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="17.00s; snakeAnim.repeat+17.00s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot69" cx="248" cy="16" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="17.25s; snakeAnim.repeat+17.25s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot70" cx="256" cy="16" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="17.50s; snakeAnim.repeat+17.50s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot71" cx="280" cy="16" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="17.75s; snakeAnim.repeat+17.75s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot72" cx="248" cy="24" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="18.00s; snakeAnim.repeat+18.00s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot73" cx="264" cy="24" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="18.25s; snakeAnim.repeat+18.25s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot74" cx="280" cy="24" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="18.50s; snakeAnim.repeat+18.50s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot75" cx="248" cy="32" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="18.75s; snakeAnim.repeat+18.75s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot76" cx="272" cy="32" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="19.00s; snakeAnim.repeat+19.00s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot77" cx="280" cy="32" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="19.25s; snakeAnim.repeat+19.25s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot78" cx="248" cy="40" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="19.50s; snakeAnim.repeat+19.50s"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="dot79" cx="280" cy="40" r="2.4" fill="#40c463">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1.2s"
+             begin="19.75s; snakeAnim.repeat+19.75s"
+             repeatCount="indefinite" />
+  </circle>
 </svg>
