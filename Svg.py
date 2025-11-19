@@ -1,22 +1,29 @@
-# generate_gunjan_snake.py
-# Custom "GUNJAN" dot-matrix snake animation SVG generator (TRANSPARENT BG)
+# generate_aryan_snake.py
+# Custom "ARYAN" dot-matrix snake animation SVG generator (TRANSPARENT BG)
 
-word = "GUNJAN"
+word = "ARYAN"
 
 # 5x5 dot matrix font for each letter
-G = [
-    [1,1,1,1,1],
-    [1,0,0,0,0],
-    [1,0,1,1,1],
+A = [
+    [0,1,1,1,0],
     [1,0,0,0,1],
     [1,1,1,1,1],
+    [1,0,0,0,1],
+    [1,0,0,0,1],
 ]
-U = [
+R = [
+    [1,1,1,1,0],
     [1,0,0,0,1],
+    [1,1,1,1,0],
+    [1,0,0,1,0],
     [1,0,0,0,1],
+]
+Y = [
     [1,0,0,0,1],
-    [1,0,0,0,1],
-    [1,1,1,1,1],
+    [0,1,0,1,0],
+    [0,0,1,0,0],
+    [0,0,1,0,0],
+    [0,0,1,0,0],
 ]
 N = [
     [1,0,0,0,1],
@@ -25,29 +32,15 @@ N = [
     [1,0,0,1,1],
     [1,0,0,0,1],
 ]
-J = [
-    [0,0,0,0,1],
-    [0,0,0,0,1],
-    [0,0,0,0,1],
-    [1,0,0,0,1],
-    [1,1,1,1,1],
-]
-A = [
-    [0,1,1,1,0],
-    [1,0,0,0,1],
-    [1,1,1,1,1],
-    [1,0,0,0,1],
-    [1,0,0,0,1],
-]
 
-letters = {"G": G, "U": U, "N": N, "J": J, "A": A}
+letters = {"A": A, "R": R, "Y": Y, "N": N}
 
 # Grid & style settings
 s = 8          # spacing between dots
 margin_x = 8
 margin_y = 8
 r = 2.4        # dot radius
-snake_speed_step = 0.25  # seconds between dots (moderate speed)
+snake_speed_step = 0.25  # seconds per dot
 
 # Build dot positions
 circles = []
@@ -62,14 +55,12 @@ for ch in word:
             if mat[row][col]:
                 cx = margin_x + (letter_offset + col) * s
                 cy = margin_y + row * s
-                circles.append(
-                    {
-                        "id": dot_index,
-                        "char": ch,
-                        "cx": cx,
-                        "cy": cy,
-                    }
-                )
+                circles.append({
+                    "id": dot_index,
+                    "char": ch,
+                    "cx": cx,
+                    "cy": cy,
+                })
                 dot_index += 1
     letter_index += 1
 
@@ -77,14 +68,14 @@ for ch in word:
 svg_width = margin_x * 2 + ((5 + 1) * len(word) - 1) * s
 svg_height = margin_y * 2 + (5 - 1) * s
 
-# Snake path (goes roughly through the name)
+# Build snake path
 path_points = []
 for i, c in enumerate(circles):
     cmd = "M" if i == 0 else "L"
     path_points.append(f"{cmd} {c['cx']} {c['cy']}")
 path_d = " ".join(path_points)
 
-# Build SVG lines
+# Build SVG
 lines = []
 lines.append(
     f'<svg viewBox="0 0 {svg_width} {svg_height}" '
@@ -92,12 +83,12 @@ lines.append(
     f'xmlns:xlink="http://www.w3.org/1999/xlink">'
 )
 
-# 🔥 REMOVED BACKGROUND RECT (transparent now)
+# Transparent background (none added)
 
-# Path for snake
+# Snake path
 lines.append(f'  <path id="snakePath" d="{path_d}" fill="none" stroke="none" />')
 
-# Snake circle that moves over the grid
+# Snake circle
 total_duration = snake_speed_step * len(circles)
 lines.append(f'''  <circle id="snake" r="{r*1.6}" fill="#30a14e">
     <animateMotion id="snakeAnim"
@@ -108,7 +99,7 @@ lines.append(f'''  <circle id="snake" r="{r*1.6}" fill="#30a14e">
     </animateMotion>
   </circle>''')
 
-# Dots + eat/reconstruct animation (unchanged)
+# Dots
 for i, c in enumerate(circles):
     begin_offset = i * snake_speed_step
     lines.append(f'''  <circle id="dot{c['id']}" cx="{c['cx']}" cy="{c['cy']}" r="{r}" fill="#40c463">
@@ -123,8 +114,8 @@ lines.append('</svg>')
 
 svg_content = "\n".join(lines)
 
-output_file = "gunjan_snake.svg"
+output_file = "aryan_snake.svg"
 with open(output_file, "w", encoding="utf-8") as f:
     f.write(svg_content)
 
-print("✅ Generated TRANSPARENT SVG: gunjan_snake.svg")
+print("✅ Generated TRANSPARENT SVG: aryan_snake.svg")
